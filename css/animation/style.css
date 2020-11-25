@@ -1,0 +1,31 @@
+html{
+	background: #19191A;
+}
+
+#box{
+	background: #F9E492;
+	position: relative;
+	width: 75px;
+	height: 125px;
+	left: 125px;
+	top: 125px;
+}
+
+#circle{
+	background: #4F77FF;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	bottom: 75px;
+	z-index: -2;
+}
+
+#shape{
+	background: #9AD5FF;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	border-radius: 0 0 0 75px;
+	top: 0px;
+}
