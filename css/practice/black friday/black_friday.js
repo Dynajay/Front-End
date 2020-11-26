@@ -1,6 +1,5 @@
 const black = document.querySelector('.black');
-window.addEventListener("mousemove", screenView);
-function(screenView){
-	const x = screenView.clientX;
-	black.style.left = x + 'px';
-}
+	window.onmousemove = function(e){
+		const x = e.clientX;
+		black.style.left = x + 'px';
+	}
