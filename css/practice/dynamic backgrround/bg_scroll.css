@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+#header
+{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(bg_stang.jpg);
+	background-size: 160%;
+	background-position: center;
+	background-attachment: fixed;
+}
+section
+{
+	padding: 100px;
+	color: #111;
+}
+section h2
+{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+
+}
+section p
+{
+	font-size: 1.2em;
+}
