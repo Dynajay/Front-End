@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body
+{
+	background-color: #151515;
+	font-family: poppins;
+	color: #fff;
+}
+.row {
+	width: 80%;
+	margin: 0 auto 0;
+	display: grid;
+	background-color: #252525;
+	grid-template-columns: repeat(var(--ts), var(--rs));
+	grid-auto-rows: minmax(100px, auto);
+	height: 600px;
+}
+.column-1 {
+	grid-column: 50%;
+	background-color: #303030;
+}
+.column-2 {
+	grid-column: 100%;
+	background-color: #303030;
+}
