@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+:root
+{
+	--bgc1: #030109;
+	--bgc2: #0c0b18;
+	--bgc3: #201e30;
+	--bgc4: #181627;
+}
+
+body
+{
+	background-color: var(--bgc1);
+	font-family: poppins;
+	color: #fff;
+}
+
+a
+{
+	text-decoration: none;
+	color: #ff0097;
+}
+
+a:hover
+{
+	color: #f00;
+}
+
+.container
+{
+	background-color: var(--bgc3);
+	margin: 0 auto 0;
+	width: 80%;
+	overflow: hidden;
+	transition: width 0.5s, left 0.5s;
+	position: absolute;
+	top: 0px;
+	left: 10%;
+}
+
+.fb-row
+{
+	height: 600px;
+	display: flex;
+	margin: 0 auto 0;
+}
+
+.header-text
+{
+	font-size: 64px;
+	transition: font-size 0.5s;
+}
+
+.fb-col
+{
+	flex: 1;
+	padding: 12px;
+	margin-left: 10px;
+}
+
+.fb-col h2
+{
+	font-size: 36px;
+}
+
+#header
+{
+	float: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer
+{
+	float: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#about-contact
+{
+	height: 300px;
+	transition: height 0.5s;
+	overflow: hidden;
+}
+
+.fb-row-dt
+{
+	height: 600px;
+	display: flex;
+	margin: 0 auto 0;
+	transition: height 0.5s;
+	overflow: hidden;
+}
+
+.fb-row-dt .fb-col p
+{
+	text-justify:inter-word;
+}
+
+.fb-row-dt .fb-col p
+{
+	text-justify:inter-word;
+}
+
+.fb-row-mp
+{
+	float: center;
+	align-items: center;
+	height: 0px;
+	transition: height 0.5s;
+	overflow: hidden;
+}
+
+@media(max-width:750px)
+{
+	.container
+	{
+		width: 100%;
+		left: 0%;
+	}
+	#about-contact
+	{
+		height: 0px;
+		overflow: hidden;
+	}
+	#res-wrk-prj
+	{
+		height: 0px;
+		overflow: hidden;
+	}
+	.fb-row-dt
+	{
+		height: 0px;
+		display: flex;
+		margin: 0 auto 0;
+		overflow: hidden;
+	}
+	.fb-row-mp
+	{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 300px;
+		overflow: hidden;
+		padding: 24px;
+	}
+	.fb-row-mp
+	{
+		margin: 0 auto 0;
+	}
+	.header-text
+	{
+		font-size: 32px;
+	}
+}
+.container .fb-row-mp:nth-child(odd){background-color: var(--bgc4);}
